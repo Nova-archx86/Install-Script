@@ -11,7 +11,7 @@ function get_dotfiles() {
 }
 
 function install_packages() {
-    sudo pacman -S $(awk '{print $1}'  input_file)
+    sudo pacman -S $(awk '{print $1}'  packages.txt)
 }
 
 install_packages
