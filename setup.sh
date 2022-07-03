@@ -6,8 +6,8 @@ function get_dotfiles() {
     cp -r dotfiles/.fonts $HOME
     cp dotfiles/.bash_profile
     cp dotfiles/.bashrc $HOME
-    cp .xinitrc $HOME 
-    cp .vimrc $HOME
+    cp dotfiles/.xinitrc $HOME 
+    cp dotfiles/.vimrc $HOME
 }
 
 function install_packages() {
