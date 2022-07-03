@@ -18,7 +18,8 @@ function install_packages() {
 function install_aur_packages() {
     git clone https://aur.archlinux.org/paru.git
     cd paru
-    makepkg -si
+    makepkg -si 
+    cd ..
     paru -S $(awk '{print $1}' aur_pkgs.txt)
 }
 
@@ -27,11 +28,7 @@ function install_vim_plugin_manager() {
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 }
 
-echo "Installing packages...\n"
 install_packages
-echo "Installing paru and AUR packages...\n"
 install_aur_packages
-echo "Grabbing Configuration files...\n"
 get_dotfiles
-echo "Installing vim plugged for neovim..."
 install_vim_plugin_manager
