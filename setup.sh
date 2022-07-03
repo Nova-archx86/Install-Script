@@ -4,6 +4,7 @@ function get_dotfiles() {
     git clone https://github.com/Nova-archx86/dotfiles
     cp -r dotfiles/.config $HOME 
     cp -r dotfiles/.fonts $HOME
+    cp -r dotfiles/Wallpapers $HOME
     cp dotfiles/.bash_profile $HOME
     cp dotfiles/.bashrc $HOME
     cp dotfiles/.xinitrc $HOME 
@@ -18,7 +19,7 @@ function install_aur_packages() {
     git clone https://aur.archlinux.org/paru.git
     cd paru
     makepkg -si
-    paru -S $(awk 'print $1' aur_pkgs.txt)
+    paru -S $(awk '{print $1}' aur_pkgs.txt)
 }
 
 function install_vim_plugin_manager() {
