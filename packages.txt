@@ -6,9 +6,7 @@ autoconf
 automake
 dialog
 direnv
-discord
 dmenu
-filezilla
 flex
 gnu-netcat
 go
@@ -16,6 +14,7 @@ htop
 i3
 i3blocks
 libreoffice-fresh
+lua
 luarocks
 man-pages
 metasploit
