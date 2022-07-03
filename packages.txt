@@ -4,7 +4,6 @@ alsa-utils
 arch-wiki-docs
 autoconf
 automake
-b43-firmware
 dialog
 direnv
 discord
