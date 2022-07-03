@@ -33,6 +33,7 @@ pkgconf
 proxychains-ng
 qbittorrent
 shotgun
+starship
 thunderbird
 tor
 vim
