@@ -31,6 +31,7 @@ pavucontrol
 picom
 pkgconf
 proxychains-ng
+pulseaudio
 qbittorrent
 shotgun
 starship
