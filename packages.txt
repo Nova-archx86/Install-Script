@@ -11,9 +11,6 @@ flex
 gnu-netcat
 go
 htop
-i3
-i3blocks
-libreoffice-fresh
 lua
 luarocks
 man-pages
@@ -34,7 +31,6 @@ proxychains-ng
 pulseaudio
 qbittorrent
 shotgun
-starship
 thunderbird
 tor
 vim

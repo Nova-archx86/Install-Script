@@ -1,4 +1,3 @@
 librewolf-bin
 minecraft-launcher
 nerd-fonts-mononoki
-polybar-git
