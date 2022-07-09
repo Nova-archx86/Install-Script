@@ -13,6 +13,10 @@ function get_dotfiles() {
 
 function install_packages() {
     sudo pacman -S $(awk '{print $1}'  packages.txt)
+    # Compiles my build of dwm 
+    git clone https://github.com/Nova-archx86/Dwm-build
+    cd Dwm-build && sudo make install 
+    cd ..
 }
 
 function install_aur_packages() {
