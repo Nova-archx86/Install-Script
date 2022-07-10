@@ -2,12 +2,8 @@ alacritty
 alsa-tools
 alsa-utils
 arch-wiki-docs
-autoconf
-automake
-dialog
-direnv
+bat
 dmenu
-flex
 gnu-netcat
 go
 htop
