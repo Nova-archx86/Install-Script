@@ -9,7 +9,6 @@ clone_repos() {
 
 get_dotfiles() {
     cp -r dotfiles/.config $HOME 
-    cp -r dotfiles/.fonts $HOME
     cp -r dotfiles/Wallpapers $HOME
     cp -r Scripts $HOME
     cp dotfiles/.bash_profile $HOME
