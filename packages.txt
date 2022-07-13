@@ -1,36 +1,34 @@
-alacritty
-alsa-tools
-alsa-utils
-arch-wiki-docs
-bat
-dmenu
-gnu-netcat
-go
-htop
+alacritty 0.10.1-2
+alsa-tools 1.2.5-1
+alsa-utils 1.2.7-1
+arch-wiki-docs 20220525-1
+discord 0.0.18-1
+dmenu 5.1-1
+general-tools 1.2.0-2
+github-cli 2.13.0-1
+gnu-netcat 0.7.1-8
+go 2:1.18.3-1
+htop 3.2.1-1
+librewolf-bin 102.0-2
 lua
-luarocks
-man-pages
-metasploit
-mpv
-mupdf
-nasm
-neofetch
-neovim
-network-manager-applet
-nitrogen
-nmap
-ntfs-3g
-pavucontrol
-picom
-pkgconf
-proxychains-ng
-pulseaudio
-qbittorrent
-shotgun
-thunderbird
-tor
-vim
-whois
-wireshark-qt
+luarocks 3.9.0-1
+man-pages 5.13-1
+mpv 1:0.34.1-4
+mupdf 1.20.0-1
+nasm 2.15.05-1
+neofetch 7.1.0-2
+neovim 0.7.2-3
+nmap 7.92-1
+pavucontrol 1:5.0+r35+g964f298-1
+picom 9.1-3
+proxychains-ng 4.16-1
+psensor 1.2.1-3
+qbittorrent 4.4.3.1-3
+shotgun 2.2.1-1
+thunderbird 91.11.0-1
+tor 0.4.7.8-1
+wget 1.21.3-1
+whois 5.5.13-1
+wireshark-qt 3.6.6-1
 xorg
 xorg-xinit
